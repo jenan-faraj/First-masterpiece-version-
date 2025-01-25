@@ -1,0 +1,223 @@
+:root{
+    --headerColoe :#F9F3F1;
+    --textColor:#B58152;
+}
+
+header{
+    width: 100% !important;
+}
+.navbar {
+    background-color: var(--headerColoe);
+}
+.navbar-brand, .nav-link, .dropdown-toggle {
+    color: var(--textColor) !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    background-color: #f5e6e1;
+    color: var(--textColor) !important;
+}
+.searchInput {
+    background-color: var(--headerColoe);
+    color: var(--textColor) !important;
+    border-color: var(--textColor) !important;
+}
+.searchButton:hover {
+    background-color: #8B4513 !important;
+    color: white !important;
+}
+
+.dropdownItem{
+    background-color: white !important;
+    border-color: var(--textColor) !important;
+}
+
+.dropdownContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.appointment-card {
+    border: 1px solid #e0a96d;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.appointment-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a36d3d;
+}
+.rating {
+    color: #ffcc00;
+}
+.icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.appointment-table {
+    width: 100%;
+    margin-top: 10px;
+}
+.appointment-table td {
+    text-align: center;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 10px !important;
+}
+.unavailable {
+    text-decoration: line-through;
+    color: #999;
+}
+thead tr td {
+    background-color: #e0ad2d !important;
+    color: #fff;
+}
+.book-btn {
+    background-color: var(--textColor) !important;
+    border: none;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+}
+.book-btn:hover{
+    background-color: #8B4513 !important;
+}
+.SocialMediaIconCon{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+.SocialMediaIcon{
+    font-size: 30px;
+    color: #70350b;
+}
+.SocialMediaIcon:hover{
+    color: #9b4f19;
+}
+
+.BTN{
+    border: none;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.card img {
+    border-radius: 10px;
+}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 1px !important;
+    color: #333;
+}
+.section-description {
+    font-size: 16px;
+    color: #555;
+}
+.about{
+    border: var(--textColor) 2px solid;
+    border-radius: 5px;
+}
+.map{
+    width: 100% !important;
+    height: 320px !important;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.map {
+    height: 300px; /* Adjust height as needed */
+    border-radius: 10px;
+}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px !important;
+    color: #333;
+}
+.opening-hours {
+    font-size: 16px;
+    color: #555;
+}
+.openingHours{
+    border: var(--textColor) 2px solid;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+.service-card {
+    background-color: #ffffff;
+    border: none;
+    border-left: 5px solid #6c757d; /* Adjust the color as needed */
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.service-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+.service-description {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+}
+.footer {
+    background-color: #111;
+    padding: 40px 0;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9966;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer ul li a:hover {
+    color: #ff9966;
+}
+.footer-bottom {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}
