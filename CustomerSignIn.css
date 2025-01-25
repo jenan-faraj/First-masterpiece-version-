@@ -1,0 +1,146 @@
+:root{
+    --headerColoe :#F9F3F1;
+    --textColor:#B58152;
+}
+
+.navbar {
+    background-color: var(--headerColoe);
+}
+.navbar-brand, .nav-link, .dropdown-toggle {
+    color: var(--textColor) !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    background-color: #f5e6e1;
+    color: var(--textColor) !important;
+}
+.searchInput {
+    background-color: var(--headerColoe);
+    color: var(--textColor) !important;
+    border-color: var(--textColor) !important;
+}
+.searchButton:hover {
+    background-color: #8B4513 !important;
+    color: white !important;
+}
+
+
+
+
+body{
+    background-image: url("images/image\ 1.png");
+}
+
+main {
+    background-image: url('background.jpg'); /* ضع صورة الخلفية هنا */
+    background-size: cover;
+}
+.formContainer {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+.formSection {
+    background-color: rgba(255, 255, 255, 0.649) !important;
+    padding: 30px;
+}
+.info-section {
+    background-color: #e9c7b1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2, h4 {
+    color: #333;
+}
+.GoogleBTN {
+    background-color: #f42727 !important;
+    color: white !important;
+    border: none;
+}
+.GoogleBTN:hover {
+    background-color: #da2121 !important;
+    color: white !important;
+}
+
+.FacebookBTN {
+    background-color: #2731f4 !important;
+    color: white !important;
+    border: none;
+}
+.FacebookBTN:hover {
+    background-color: #1d26d1 !important;
+    color: white !important;
+}
+
+.SignUpBTN {
+    background-color: #D6AC94 !important;
+    color: white !important;
+    border: none !important;
+}
+.SignUpBTN:hover {
+    background-color: #c79c83 !important;
+    color: white !important;
+}
+
+.SignInBTN {
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+}
+.SignInBTN:hover {
+    background-color: rgb(234, 223, 223) !important;
+    color: black !important;
+}
+.social-buttons {
+    margin-top: 20px;
+}
+.SignInLink{
+    text-decoration: none;
+    color: #111;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+}
+.footer {
+    background-color: #111;
+    padding: 40px 0;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9966;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer ul li a:hover {
+    color: #ff9966;
+}
+.footer-bottom {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}

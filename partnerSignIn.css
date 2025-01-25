@@ -1,0 +1,102 @@
+:root{
+    --headerColoe :#F9F3F1;
+    --textColor:#B58152;
+}
+
+.navbar {
+    background-color: var(--headerColoe);
+}
+.navbar-brand, .nav-link, .dropdown-toggle {
+    color: var(--textColor) !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    background-color: #f5e6e1;
+    color: var(--textColor) !important;
+}
+.searchInput {
+    background-color: var(--headerColoe);
+    color: var(--textColor) !important;
+    border-color: var(--textColor) !important;
+}
+.searchButton:hover {
+    background-color: #8B4513 !important;
+    color: white !important;
+}
+
+
+
+
+body{
+    background-image: url("images/image\ 1.png");
+}
+
+main {
+    background-image: url('background.jpg'); /* ضع صورة الخلفية هنا */
+    background-size: cover;
+}
+.formContainer {
+    margin: 50px;
+}
+.form-container {
+    background-color: rgba(255, 255, 255, 0.649);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.right-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.right-section{
+    background-color: #D6AC94;
+    margin: 0px;
+}
+
+.btn-primary{
+    background-color: #D6AC94 !important;
+    border-color: #D6AC94 !important;
+}
+.btn-primary:hover{
+    background-color: #ba9078 !important;
+    border-color: #D6AC94 !important;
+}
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+}
+.footer {
+    background-color: #111;
+    padding: 40px 0;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9966;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer ul li a:hover {
+    color: #ff9966;
+}
+.footer-bottom {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}

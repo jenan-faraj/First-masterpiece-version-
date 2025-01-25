@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="userProfile.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- ---------- HEADER ---------- -->
+    <header >
+      <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+        <div class="container">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div  id="navbarSupportedContent" class="collapse navbar-collapse w-100">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="partnerSignIn.html"
+                  >Join to us today</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="userProfile.html"><i class="fa-solid fa-user"> Jenan</i></a>
+              </li>
+            </ul>
+            
+          </div>
+        
+      </nav>
+    </header>
+    <nav class="dropdownContainer d-flex justify-content-between">
+        <form class="d-flex m-2 " role="search">
+            <input
+              class="searchInput form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="searchInput searchButton btn" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="dropdownContainer d-flex">
+            <div class="dropdown m-2">
+                <a class="dropdownItem btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown m-2">
+                <a class="dropdownItem btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown m-2">
+                <a class="dropdownItem btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+          </div>
+    </nav>
+    
+    <div class="profileContainer">
+        <div>
+            <img src="images/background.png" class="header-image" alt="Background">
+            <div class="d-flex m-4">
+                <img src="images/profile.png" class="profile-image" alt="Profile">
+                <div class="profile-info ">
+                    <h4>Jenan Faraj</h4>
+                    <a href="userProfileEdit.html"><i class="fa-solid fa-user-pen SocialMediaIcon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reservationsContainer">
+        <h2>My Reservations:</h2>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="reservation-card d-flex">
+                    <img src="images/sallon.png" class="profile-image" alt="Profile">
+                    <div>
+                        <h5>Lorem Ipsum is simply</h5>
+                        <p>DAY: Friday</p>
+                        <p>DATE: 20 / 10 / 2025</p>
+                        <p>Service type: Gel Nail Polish</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-whatsapp SocialMediaIcon"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-messenger SocialMediaIcon"></i></a>
+                            <a href="#"><i class="fa-solid fa-phone SocialMediaIcon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="reservation-card">
+                    <img src="images/sallon.png" class="profile-image" alt="Profile">
+                    <h5>Lorem Ipsum is simply</h5>
+                    <p>DAY: Friday</p>
+                    <p>DATE: 20 / 10 / 2025</p>
+                    <p>Service type: Gel Nail Polish</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-whatsapp SocialMediaIcon"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-messenger SocialMediaIcon"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone SocialMediaIcon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="reservation-card">
+                    <img src="images/sallon.png" class="profile-image" alt="Profile">
+                    <h5>Lorem Ipsum is simply</h5>
+                    <p>DAY: Friday</p>
+                    <p>DATE: 20 / 10 / 2025</p>
+                    <p>Service type: Gel Nail Polish</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-whatsapp SocialMediaIcon"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-messenger SocialMediaIcon"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone SocialMediaIcon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="reservation-card">
+                    <img src="images/sallon.png" class="profile-image" alt="Profile">
+                    <h5>Lorem Ipsum is simply</h5>
+                    <p>DAY: Friday</p>
+                    <p>DATE: 20 / 10 / 2025</p>
+                    <p>Service type: Gel Nail Polish</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-whatsapp SocialMediaIcon"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-messenger SocialMediaIcon"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone SocialMediaIcon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-logo">LOGO</div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Lorem</h5>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem Ipsum</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem Ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Lorem</h5>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem Ipsum</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem Ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Lorem</h5>
+                    <ul>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem Ipsum</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem</a></li>
+                        <li><a href="#">lorem Ipsum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        &copy; 2025 - All Rights Reserved
+    </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="userProfile.js"></script>
+  </body>
+</html>

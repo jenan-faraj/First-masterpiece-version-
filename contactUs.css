@@ -1,0 +1,148 @@
+:root{
+    --headerColoe :#F9F3F1;
+    --textColor:#B58152;
+}
+
+header{
+    width: 100% !important;
+}
+.navbar {
+    background-color: var(--headerColoe);
+}
+.navbar-brand, .nav-link, .dropdown-toggle {
+    color: var(--textColor) !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    background-color: #f5e6e1;
+    color: var(--textColor) !important;
+}
+.searchInput {
+    background-color: var(--headerColoe);
+    color: var(--textColor) !important;
+    border-color: var(--textColor) !important;
+}
+.searchButton:hover {
+    background-color: #8B4513 !important;
+    color: white !important;
+}
+
+.dropdownItem{
+    background-color: white !important;
+    border-color: var(--textColor) !important;
+}
+
+.dropdownContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment-section {
+    background:url('images/contactBg.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    width: 100%;
+    padding: 50px 0;
+}
+
+/* عنوان الصفحة */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* نص الفقرة */
+.section-text {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* صندوق الفورم */
+.form-container {
+    max-width: 800px;
+}
+
+/* حقول الإدخال */
+.contactForm {
+    border: none !important;
+    border-bottom: 1px solid #333 !important;
+    border-radius: 0 !important;
+    padding: 12px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+/* تأثير عند التركيز على الحقل */
+.contactForm:focus {
+    outline: none !important;
+    border-bottom: 1px solid #e27d6d !important;
+    box-shadow: none !important;
+    color: #e27d6d !important;
+}
+.contactForm:focus::placeholder {
+    color: #e27d6d !important; 
+    opacity: 1; 
+}
+
+/* زر الإرسال */
+.btn-custom {
+    background-color: #e27d6d !important;
+    color: white !important;
+    padding: 10px 40px !important;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px !important;
+    transition: all 0.3s ease !important;
+}
+
+/* تأثير الزر عند التحويم */
+.btn-custom:hover {
+    background-color: #d46450 !important;
+    color: #fff;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+}
+.footer {
+    background-color: #111;
+    padding: 40px 0;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9966;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer ul li a:hover {
+    color: #ff9966;
+}
+.footer-bottom {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+}
