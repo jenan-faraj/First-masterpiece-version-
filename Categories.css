@@ -73,6 +73,7 @@ header{
     padding: 5px;
     background-color: #f0f0f0;
     border-radius: 5px;
+    margin: 10px !important;
 }
 .unavailable {
     text-decoration: line-through;
@@ -83,17 +84,33 @@ thead tr td {
     color: #fff;
 }
 .book-btn {
-    background-color: #8cb34b;
+    background-color: var(--textColor) !important;
     border: none;
-    color: #fff;
+    color: #fff !important;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
     display: block;
-    margin: 10px auto;
+}
+.book-btn:hover{
+    background-color: #8B4513 !important;
+}
+.SocialMediaIconCon{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+.SocialMediaIcon{
+    font-size: 30px;
+    color: #70350b;
+}
+.SocialMediaIcon:hover{
+    color: #9b4f19;
 }
 
-
+.BTN{
+    border: none;
+}
 
 footer {
     margin: 0;
