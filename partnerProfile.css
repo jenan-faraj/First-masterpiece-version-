@@ -112,6 +112,78 @@ thead tr td {
     border: none;
 }
 
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.card img {
+    border-radius: 10px;
+}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 1px !important;
+    color: #333;
+}
+.section-description {
+    font-size: 16px;
+    color: #555;
+}
+.about{
+    border: var(--textColor) 2px solid;
+    border-radius: 5px;
+}
+.map{
+    width: 100% !important;
+    height: 320px !important;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.map {
+    height: 300px; /* Adjust height as needed */
+    border-radius: 10px;
+}
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px !important;
+    color: #333;
+}
+.opening-hours {
+    font-size: 16px;
+    color: #555;
+}
+.openingHours{
+    border: var(--textColor) 2px solid;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+.service-card {
+    background-color: #ffffff;
+    border: none;
+    border-left: 5px solid #6c757d; /* Adjust the color as needed */
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.service-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+.service-description {
+    font-size: 16px;
+    color: #555;
+}
+
 footer {
     margin: 0;
     padding: 0;
