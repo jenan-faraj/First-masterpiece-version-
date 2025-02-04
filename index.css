@@ -3,9 +3,14 @@
     --textColor:#B58152;
 }
 
-
+.navbarLinks{
+    margin-right: -500px !important;
+}
 header{
     width: 100% !important;
+}
+.carousel-item img{
+    height: 70vh;
 }
 .navbar {
     background-color: var(--headerColoe);
@@ -31,7 +36,22 @@ header{
     background-color: white !important;
     border-color: var(--textColor) !important;
 }
-
+.startedbutton {
+    color: #eeeeee;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #a0714f;
+    cursor: pointer;
+    border: 1px solid #6b462b;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #956542, -6px -6px 12px #ffffff;
+  }
+  
+  .startedbutton:active {
+    color: #eeeeee;
+    box-shadow: inset 4px 4px 12px #956542, inset -4px -4px 12px #775134;
+  }
 .dropdownContainer{
     display: flex;
     flex-wrap: wrap;
@@ -39,12 +59,11 @@ header{
     align-items: center;
 }
 
-#questionBTN{
-    background-color: var(--textColor);
-    box-shadow: 4px 4px 12px #612f0ca1;
-    font-weight: bold;
-    color: black;
+.image-card img {
+    height: 400px; 
+    width: 350px;
 }
+
 #questionBTN:hover{
     background-color: var(--textColor);
     box-shadow: 2px 2px 10px #612f0c;
@@ -78,7 +97,8 @@ header{
     font-weight: bold;
 }
 .overlay-text span {
-    font-weight: normal;
+    font-weight: 700;
+    font-size: 15px;
     color: #c4a484;
 }
 .overlay-link{
@@ -112,7 +132,6 @@ header{
     font-size: 14px;
     color: #777;
 }
-
 
 .custom-card {
     background-color: #f8f9fa; /* لون الخلفية */

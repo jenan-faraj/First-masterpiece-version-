@@ -1,0 +1,69 @@
+
+
+
+
+/* From Uiverse.io by zanina-yassine */ 
+.payment-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.payment-methods {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.payment-method {
+    flex: 1;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.payment-method:hover {
+    background: #e9ecef;
+}
+
+.payment-method img {
+    height: 50px;
+    width: 100px;
+}
+
+.divider {
+    text-align: center;
+    margin: 2rem 0;
+    position: relative;
+}
+
+
+
+.checkout-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.checkout-btn:hover {
+    background: #333;
+}
+
+.form-control {
+    padding: 0.8rem;
+    background: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+}
+

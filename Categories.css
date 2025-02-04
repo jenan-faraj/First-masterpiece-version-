@@ -111,7 +111,9 @@ thead tr td {
 .BTN{
     border: none;
 }
-
+.carousel-item img{
+    height: 70vh;
+}
 footer {
     margin: 0;
     padding: 0;
