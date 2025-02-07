@@ -30,10 +30,6 @@ body{
     background-image: url("images/image\ 1.png");
 }
 
-main {
-    background-image: url('background.jpg'); /* ضع صورة الخلفية هنا */
-    background-size: cover;
-}
 .formContainer {
     margin: 50px;
 }

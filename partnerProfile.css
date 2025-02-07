@@ -64,37 +64,17 @@ header{
     margin-right: 10px;
 }
 
-.appointment-table {
-    width: 100%;
-    margin-top: 10px;
+.appointment-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
 }
-.appointment-table td {
-    text-align: center;
-    padding: 5px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    margin: 10px !important;
+.selected {
+    background-color: #007bff;
+    color: white;
 }
-.unavailable {
-    text-decoration: line-through;
-    color: #999;
-}
-thead tr td {
-    background-color: #e0ad2d !important;
-    color: #fff;
-}
-.book-btn {
-    background-color: var(--textColor) !important;
-    border: none;
-    color: #fff !important;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    display: block;
-}
-.book-btn:hover{
-    background-color: #8B4513 !important;
-}
+
 .SocialMediaIconCon{
     display: flex;
     justify-content: start;
